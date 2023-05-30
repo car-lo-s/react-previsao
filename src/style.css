@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:#343541 ;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    height: 60px;
+    padding: 10px 15px;
+}
+.topo div{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.topo div input,button{
+    padding: 5px;
+    outline: none;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: justify;
+}
+.corpo p, h2{
+    margin-top: 10px;
+}
+footer{
+    background-color:#343541;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    padding: 10px;
+    color: white;
+}
