@@ -27,7 +27,7 @@ export const App = () => {
  
 
   useEffect(() => {
-    fetch("http://servicodados.ibge.gov.br/api/v3/noticias/?qtd=5&introsize=2000&busca="+intro)
+    fetch("https://servicodados.ibge.gov.br/api/v3/noticias/?qtd=5&introsize=2000&busca="+intro)
       .then((response) => response.json())
       .then((a) => {
         a.items.map((item: any) => {
